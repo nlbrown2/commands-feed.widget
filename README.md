@@ -1,4 +1,5 @@
 ## Commandlinefu Random commands
+Forked from [here](https://github.com/smartameer/commands-feed.widget). So far, this only contains minor tweaks to presentation. Thank you smartameer for providing an excellent widget!
 
 ### Screenshot
 ![Desktop Commands Feed](screenshot.png?raw=true)
