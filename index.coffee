@@ -70,12 +70,6 @@ render: () ->"""
     <p class="desc">
       <span class="help">--help</span><span class="summary"></span>
     </p>
-    <p class="desc">
-      <span class="ref">--ref</span><a class="url" href=""></a>
-    </p>
-    <p class="desc">
-      <span class="votes">--votes</span><span class="votecount"></span>
-    </p>
   </div>
 
 """
@@ -85,5 +79,3 @@ update: (o, domEl) ->
   data = JSON.parse(o)[0];
   $(domEl).find('.command').html("#{data.command}");
   $(domEl).find('.summary').html("#{data.summary}");
-  $(domEl).find('.url').html("#{data.url}").attr('href', "#{data.url}");
-  $(domEl).find('.votecount').html("#{data.votes}");
